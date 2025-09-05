@@ -4,7 +4,9 @@
   "description": "SaaS boilerplate inspired by TabNews.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "biome format --verbose",
+    "lint:fix": "biome format --write"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
     "react-dom": "19.1.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.2.3",
     "@types/node": "24.3.1",
     "@types/react": "19.1.12",
     "typescript": "5.9.2"
