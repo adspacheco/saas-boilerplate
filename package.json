@@ -1,0 +1,24 @@
+{
+  "name": "saas-boilerplate",
+  "version": "1.0.0",
+  "description": "SaaS boilerplate inspired by TabNews.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adspacheco/saas-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adspacheco/saas-boilerplate/issues"
+  },
+  "homepage": "https://github.com/adspacheco/saas-boilerplate#readme",
+  "dependencies": {
+    "next": "15.5.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  }
+}
