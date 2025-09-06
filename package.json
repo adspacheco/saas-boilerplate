@@ -22,7 +22,9 @@
   "homepage": "https://github.com/adspacheco/saas-boilerplate#readme",
   "dependencies": {
     "@tailwindcss/postcss": "4.1.13",
+    "drizzle-orm": "0.44.5",
     "next": "15.5.2",
+    "pg": "8.16.3",
     "postcss": "8.5.6",
     "react": "19.1.1",
     "react-dom": "19.1.1",
@@ -31,7 +33,9 @@
   "devDependencies": {
     "@biomejs/biome": "2.2.3",
     "@types/node": "24.3.1",
+    "@types/pg": "8.15.5",
     "@types/react": "19.1.12",
+    "drizzle-kit": "0.31.4",
     "typescript": "5.9.2",
     "vitest": "3.2.4"
   }
